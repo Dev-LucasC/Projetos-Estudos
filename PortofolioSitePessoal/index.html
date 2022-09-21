@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/cabecalho.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <title>Meu Portofolio</title>
+</head>
+
+<body>
+    <div class="container_apresentacao">
+        <header class="cabecalho">
+            <nav class="cabecalho_nav">
+
+                <h2 class="cabecalho_logo">Porto<span>folio</span></h2>
+
+
+                <ul class="cabecalho_link">
+                    <li><a href="https://www.linkedin.com/in/dev-lucasconceicao/details/certifications/" class="cabecalho_link-item" target="_blank">Certificados</a></li>
+                    <li><a href="#sobre-mim" class="cabecalho_link-item">Sobre mim</a></li>
+                    <li><a href="#portofolio" class="cabecalho_link-item">Portofolio</a></li>
+                    <li><a href="#contato" class="cabecalho_link-item">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="apresentacao">
+                <h4 class="apresentacao_nome-titulo">Olá, meu nome é</h4>
+
+                <h1 class="apresentacao_nome-principal">Lucas da <span>Conceição</span></h1>
+                <h3 class="apresentacao_nome-info">Eu sou um desenvolvedor FrontEnd
+                    <br>
+                    <br>
+                    <span>Com habilidades em:</span>
+                </h3>
+
+                <div class="apresentacao_habilidades">
+                    <ul class="apresentacao_habilidades_lista">
+                        <li class="apresentacao_habilidades-img">
+                            <h2 class="apresentacao_habilidades-titulo">HTML</h2>
+                            <img src="/images/html.png" alt="" class="apresentacao_habilidades-img">
+                        </li>
+                        <li class="apresentacao_habilidades-img">
+                            <h2 class="apresentacao_habilidades-titulo">CSS</h2>
+                            <img src="/images/css-3.png" alt="" class="apresentacao_habilidades-img">
+                        </li>
+                        <li class="apresentacao_habilidades-img">
+                            <h2 class="apresentacao_habilidades-titulo">JavaScr</h2>
+                            <img src="/images/script-java.png" alt="" class="apresentacao_habilidades-img">
+                        </li>
+                        </li>
+                        <li class="apresentacao_habilidades-img">
+                            <h2 class="apresentacao_habilidades-titulo">ReactJS</h2>
+                            <img src="/images/react.png" alt="" class="apresentacao_habilidades-img">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="sobre" id="sobre-mim">
+        <div class="sobre_mim">
+            <img src="/images/main-img.jpg" alt="" class="sobre_mim-foto">
+            <div class="sobre_mim-texto">
+                <h2 class="sobre_mim-texto-principal">Sobre-Mim</h2>
+                <h5 class="sobre_mim-texto-secundario">Desenvolvedor <span> Web</span></h5>
+                <p class="sobre_mim-texto-frase">Eu sou um Desenvolvedor web front-end. Eu posso fornecer codigos limpos
+                    e imagem de desing perfeito.
+                    E também fazer o website mais & mais interativo e com animação web. E posso Deixar seu site
+                    responsivo, e que ele acesse todos os usuarios, independente dos seus aparelhos dispositivos.</p>
+            </div>
+        </div>
+    </section>
+    <section class="portofolio" id="portofolio">
+        <div class="portofolio_inicio">
+            <a href="https://github.com/Dev-LucasC/Projetos-Portfolio"><img src="images/github.png" alt=""
+                    class="portofolio_imagem"></a>
+            <h2 class="portofolio_titulo">Meu Portofolio</h2>
+        </div>
+
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="./images/Coca.png" alt="Foto 01">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="./images/login.png" alt="Foto 02">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="./images/Lojas-carro.png" alt="Foto 03">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="./images/formulario.png" alt="Foto 03">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+    <footer class="rodape" id="contato">
+        <nav class="rodape_navegacao">
+            <div class="rodape_contato">
+                <h2 class="rodape_contato-titulo">Contato</h2>
+                <ul class="rodape_contato-lista">
+                    <li class="rodape_contato-item"><a href="tel:+5547991665361" class="rodape_contato-telefone">
+                            47 991665361
+                        </a></li>
+                    <li class="rodape_contato-item"><a href="mailto:lucaconceicao@hotmail.com"
+                            class="rodape_contato-email">
+                            lucaconceicao@hotmail.com
+                        </a></li>
+                    <li class="rodape_links-item"><a href="https://l.instagram.com/?u=https%3A%2F%2Fcontate.me%2Flucasdev&e=ATMDRpg8s1EOCgVvtCxI-2JDlP0ilu3Ru61beMTF64fEBBhIr15dKVpnLYiPR2udvV60Io6hJvdU_hh66HFRsA&s=1" target="_blank"><img src="/images/whatsapp.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="rodape_sociais">
+                <h2 class="rodape_contato-titulo">Sociais</h2>
+                <ul class="rodape_links">
+                    <li class="rodape_links-item"><a href="https://www.instagram.com/lucas.desenvolvedor/" target="_blank"><img src="/images/instagram.png" alt=""></a></li>
+                    <li class="rodape_links-item "><a href="https://www.linkedin.com/in/dev-lucasconceicao/" target="_blank" ><img src="/images/linkedin.png" alt=""></a></li>
+                    <li class="rodape_links-item"><a href="https://github.com/Dev-LucasC" target="_blank"><img src="/images/github.png" alt=""></a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

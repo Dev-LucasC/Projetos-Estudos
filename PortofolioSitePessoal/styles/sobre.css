@@ -1,0 +1,70 @@
+.sobre {
+    padding-left: 1em;
+    padding-right: 1em;
+    background: var(--preto-carrossel);
+    text-align: center;
+}
+
+.sobre_mim-foto {
+    margin-top: 3em;
+    width: 50%;
+    border-radius: 100%;
+}
+
+.sobre_mim-texto-principal {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.sobre_mim-texto-secundario {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 30px;
+    color: var(--branco);
+    letter-spacing: 3px;
+}
+
+.sobre_mim-texto-frase {
+    color: var(--h4);
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 1068px) {
+    .sobre_mim {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        
+    } 
+
+    .sobre_mim-foto {
+        width: 20%;
+        border-radius: 0%;
+        border: 1px solid white;
+        box-shadow:  2px 2px 2px black;
+        margin: 0px;
+    }
+
+    .sobre_mim-texto {
+        width: 100%;
+    }
+
+    .sobre_mim-texto-principal {
+        font-size: 75px;
+
+        
+    }
+
+    .sobre_mim-texto-secundario {
+        font-size: 42px;
+        margin-bottom: 1em;
+    }
+    
+    .sobre_mim-texto-frase {
+        font-size: 28px;
+        margin-bottom: 1em;
+    }
+}

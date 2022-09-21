@@ -1,0 +1,60 @@
+
+.portofolio {
+    background-color: black;
+}
+
+.portofolio_inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portofolio_imagem {
+    width: 64px;
+    margin-right: 1em;
+
+}
+
+.portofolio_titulo {
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+ 
+  
+.swiper {
+    height: 100%;
+    width: 100%;
+  }
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+  
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 1068px) {
+    .portofolio_titulo{
+        font-size: 42px;    
+    }
+
+    .swiper {
+        height: 100%;
+        width: 100%;
+    }
+
+    .swiper-slide img {
+        width: 90%;
+        
+    }
+}

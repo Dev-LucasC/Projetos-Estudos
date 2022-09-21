@@ -1,0 +1,27 @@
+@import url(apresentacao.css);
+@import url(sobre.css);
+@import url(portofolio.css);
+@import url(rodape.css);
+
+:root {
+    --vermelho: #f9004d;
+    --branco: #fff;
+    --h4: #fcfc;
+    --preto-carrossel: #101010;
+    --preto-principal: #00161C;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: var(--preto-principal);
+    
+    
+}
+
+span {
+    background: linear-gradient(360deg, var(--vermelho), #ef5082);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
